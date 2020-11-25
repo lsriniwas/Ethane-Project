@@ -1,4 +1,3 @@
-
 import React from "react"
 import Styled from "styled-components";
 
@@ -37,10 +36,9 @@ justify-content:space-around;
 height:200px;`
 const H =  Styled.h2`
 transform: skew(-12deg);`;
+
 class FooterContent extends React.Component{
-constructor(props){
-    super(props)
-}
+
     render(){
         return(
             <div style = {{padding:"15px"}}>

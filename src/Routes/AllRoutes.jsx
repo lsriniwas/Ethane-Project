@@ -1,13 +1,21 @@
 import React, { Component } from 'react'
-import { Route } from 'react-router-dom'
-import {LoginModals} from '../Components/Modals/LoginModals.jsx'
+import { Home } from '../Component/Home/Home'
+import {Route,Switch} from "react-router-dom"
+import { SignUp } from '../Component/SignUp/SignUp'
+import { Profile } from '../Component/Profile/Profile'
 
-
-export default class AllRoutes extends Component {
+export class AllRoutes extends Component {
+     
     render() {
         return (
             <div>
-                <Route path = "/createAccount" render = {<LoginModals />} />
+                <Switch>
+                <Route path="/" exact render={(props)=><Home {...props}/>}/>
+                <Route path="/app/onboarding/" exact render={(props)=><SignUp {...props}/>} />
+                <Route path="/app/recs" exact render={()=><Profile/>} />
+                {/* <Route path="/app/profile" exact render={()=><Profile/>} /> */}
+
+                </Switch>
             </div>
         )
     }

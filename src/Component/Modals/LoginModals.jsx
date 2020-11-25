@@ -2,6 +2,7 @@ import React from "react";
 import "antd/dist/antd.css";
 import { Modal, Button } from "antd";
 import { Pin } from "./Pin";
+import tindericon from "../../Images/tindericon.png"
 
 
 export class LoginModals extends React.Component {
@@ -50,6 +51,12 @@ export class LoginModals extends React.Component {
         })
     }
 
+    handleContinue=()=>{
+
+        const {history}=this.props
+        history.push("/app/onboarding")
+    }
+
   render() {
       const styles  = {width:"240px",
         height:"45px",
@@ -62,22 +69,21 @@ export class LoginModals extends React.Component {
         borderRadius:"20px",
         color:"white",
         outline:"none",
-        color:"white",
         border:"0px",
         fontFamily: "sans-serif",
         background: "linear-gradient(262deg, #FF7854, #FD267D)",
         backgroundImage: "linear-gradient(262deg, rgb(255, 120, 84), rgb(253, 38, 125))",
-        outline: "none"
-        // background: "linear-gradient(262deg, #FD267D,#FF7854)",
-        // backgroundImage: "linear-gradient(262deg,  rgb(253, 38, 125)rgb(255, 120, 84))" 
     }
+
+    
+
       const {isAuth} = this.state
       if(!isAuth){
     return (
         <>
-            <Button type="primary" onClick={this.showModal} style ={{...styles}}>
+            <button type="primary" onClick={this.showModal} style ={{...styles}}>
                 Create Account
-            </Button>
+            </button>
             <Modal
                 visible={this.state.visibleCreateAccount}
                 onCancel={this.handleCancel}
@@ -86,9 +92,10 @@ export class LoginModals extends React.Component {
                 footer = {null}
             >
                 <img 
-                    src = "https://www.brandeps.com/logo-download/T/Tinder-logo-vector-03.svg" 
+                    src = {tindericon}
                     height= "30px" 
-                    idth = "30px"
+                    width = "30px"
+                    alt=""
                 />
                 <h2><i>CREATE ACCOUNT</i></h2>
                 <p>By clicking Log In, you agree to our Terms. Learn how we process your data in our Privacy Policy, and Cookie Policy</p>
@@ -99,7 +106,7 @@ export class LoginModals extends React.Component {
                     style = {{backgroundColor: "white", borderRadius: 20, padding: "5px 40px 5px 10px", cursor: "pointer", outline: "none"}}
                 >
                     <div style ={{display: "flex", outline: "none"}} >
-                        <img src = "https://www.flaticon.com/svg/static/icons/svg/281/281764.svg" style = {{height: "30px", width: "30px", margin: 5, marginRight: 40}} ></img>
+                        <img src = "https://www.flaticon.com/svg/static/icons/svg/281/281764.svg" alt="" style = {{height: "30px", width: "30px", margin: 5, marginRight: 40}} ></img>
                         <h3 style ={{margin: 5, outline: "none"}} >LOG IN WITH GOOGLE</h3> 
                     </div>
                 </button>
@@ -121,12 +128,12 @@ export class LoginModals extends React.Component {
                 width = "450px"
                 footer = {null}
             >
-                <img src = "https://www.brandeps.com/logo-download/T/Tinder-logo-vector-03.svg" height= "30px" width = "30px" />
+                <img src = {tindericon} alt="" height= "30px" width = "30px" />
                 <h2>ENTER YOUR MOBILE NUMBER</h2>
                 <div style = {{display: "flex", marginLeft: "100px"}} >   
                     <div style = {{margin: 5}} > IN
                         <span> 
-                            <img src = "https://www.flaticon.com/svg/static/icons/svg/566/566004.svg" height = "10px" width= "10px" />
+                            <img src = "https://www.flaticon.com/svg/static/icons/svg/566/566004.svg" alt="" height = "10px" width= "10px" />
                         </span>
                     </div>
                     <input 
@@ -156,7 +163,7 @@ export class LoginModals extends React.Component {
                 footer = {null}
             >
             <img 
-                src = "https://www.brandeps.com/logo-download/T/Tinder-logo-vector-03.svg" 
+                src = {tindericon}
                 alt = 'img' 
                 height= "30px" 
                 width = "30px" 
@@ -178,7 +185,7 @@ export class LoginModals extends React.Component {
             />
   
             <br /> <br />
-            <button 
+            <button onClick={this.handleContinue}
                 style = {{backgroundColor: "#FB576A", color: "white", borderRadius: 20, padding: "10px 70px 10px 70px", border: "none", outline: "none"}} 
             >
                 Continue

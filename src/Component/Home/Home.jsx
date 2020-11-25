@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 
 
 import styled from "styled-components"
-import { LoginModals } from './Modals/LoginModals'
-import {Navbar} from "./Navbar"
+import { LoginModals } from '../Modals/LoginModals'
+import {Navbar} from "../Navbar/Navbar"
 
 const BackgroundWrapper=styled.div`
 
@@ -35,34 +35,12 @@ justify-content:center;
 font-size:100px;
 color:white;
 height:140px;
-width:600px;
+width:700px;
 font-weight: 700;
 margin:auto;
+margin-bottom:70px;
 `;
-const Button = styled.div`
-width:240px;
-height:45px;
-display:flex;
-justify-content:center;
 
-margin:auto;
-padding:8px 18px;
-font-size:16px;
-font-weight:light;
-border-radius:20px;
-color:white;
-outline:none;
-color:white;
-border:0px;
-font-family
-background: linear-gradient(262deg, #FF7854, #FD267D);
-background-image: linear-gradient(262deg, rgb(255, 120, 84), rgb(253, 38, 125));
-&:hover {
-background: linear-gradient(262deg, #FD267D,#FF7854);
-background-image: linear-gradient(262deg,  rgb(253, 38, 125)rgb(255, 120, 84));
-}
-
-`;
 const Footer = styled.div`
 display:flex;
 position:relative;
@@ -74,9 +52,10 @@ color:white;
 font-size:12px;
 `
 
-export class LandingPage extends Component {
+export class Home extends Component {
    
     render() {
+        const {history}=this.props
         return (
             <div>
 
@@ -88,7 +67,7 @@ export class LandingPage extends Component {
                    <Divgap></Divgap>
                        <Head>Swipe Right® </Head>
                      {/* <Button >CREATE ACCOUNT</Button>  */}
-                     <LoginModals />
+                     <LoginModals history={history} />
                      <Footer>
                    <div>All photos of models and used for illustrative purpose only</div>
                </Footer>

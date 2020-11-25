@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { BrowserRouter } from 'react-router-dom';
-
+import {BrowserRouter} from "react-router-dom"
+import { DataContextProvider } from './DataContextProvider/DataContextProvider';
 ReactDOM.render(
-    <BrowserRouter>
+  <DataContextProvider>
+  <BrowserRouter>
     <App />
-    </BrowserRouter>,
+  </BrowserRouter>
+  </DataContextProvider>
+  ,
   document.getElementById('root')
 );
 
