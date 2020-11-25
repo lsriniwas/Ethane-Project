@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 
 import styled from "styled-components"
+import { LoginModals } from './Modals/LoginModals'
 import {Navbar} from "./Navbar"
 
 const BackgroundWrapper=styled.div`
@@ -31,11 +32,11 @@ height:200px;
 const Head = styled.h1`
 display:flex;
 justify-content:center;
-font-size:88px;
+font-size:100px;
 color:white;
 height:140px;
 width:600px;
-
+font-weight: 700;
 margin:auto;
 `;
 const Button = styled.div`
@@ -86,7 +87,8 @@ export class LandingPage extends Component {
                    <Navbar />
                    <Divgap></Divgap>
                        <Head>Swipe Right® </Head>
-                     <Button>CREATE ACCOUNT</Button> 
+                     {/* <Button >CREATE ACCOUNT</Button>  */}
+                     <LoginModals />
                      <Footer>
                    <div>All photos of models and used for illustrative purpose only</div>
                </Footer>

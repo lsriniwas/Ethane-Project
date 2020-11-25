@@ -37,10 +37,9 @@ text-align:center;
 border:0px;
 margin-right:30px;
 min-width:100px;
-
+color:#fd5068;
 border-radius:5px;
 background-color:white;
-color:pink;
 font-weight: bold;
 &:hover {
     background: linear-gradient(262deg, #FD267D,#FF7854);
