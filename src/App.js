@@ -1,14 +1,11 @@
-
-import {LandingPage} from "./Components/LandingPage"
-
-
+import './App.css';
+import { AllRoutes } from './Routes/AllRoutes';
 function App() {
   return (
     <div className="App">
-     
-<LandingPage />
+      <AllRoutes/>
     </div>
-  )
+  );
 }
 
 export default App;
