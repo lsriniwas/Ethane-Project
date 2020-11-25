@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import Styled from "styled-components";
-import {LinksWithFooter} from "../Footer/Footer"
-import {Header} from "../Footer/Header"
-import {FooterContent} from "../Footer/Content"
+import { LinksWithFooter } from "../Footer/Footer";
+import { Header } from "../Footer/Header";
+import { FooterContent } from "../Footer/Content";
 import "antd/dist/antd.css";
-import { Modal} from "antd";
-
+import { Modal } from "antd";
 
 const ToolBar = Styled.div`
 // background: linear-gradient(180deg, rgba(0,0,0,3) 20%, transparent 50%);  
@@ -21,10 +20,10 @@ width:100%;
 const ColoredLine = Styled.div`
 
 background-color:white;
-height:1.5px;
-width:20px;
+height:3px;
+width:30px;
 margin:3px;
-
+margin-right:40px;
 `;
 const Div = Styled.div`
 float:left;
@@ -49,62 +48,59 @@ font-weight: bold;
     }
 `;
 const Img = Styled.img`
-margin-right:1100px;
-height:50px;
-padding: 3px;
+margin-right:1000px;
+height:45px;
+// padding: 3px;
 `;
 
-class Navbar extends Component{
-  
-    state = {
-        modalVisible: false,
-    
-      };
-    
-      setModalVisible=()=> {
-        this.setState({ 
-            modalVisible:true
-        });
-    }
-        closeModal=()=>{
-            this.setState({ 
-                modalVisible:false
-            }); 
-        }
-      
-    render() {
-        return (
-            <div>
-                  <ToolBar>
-                      
-                      <Div onClick={this.setModalVisible} >
-                        <ColoredLine></ColoredLine>
-                        <ColoredLine></ColoredLine>
-                        <ColoredLine></ColoredLine>
-                      </Div>
-                      <Modal
-                    title= {<Header/>}
-                    style={{ top:0 }}
-                    visible={this.state.modalVisible}
-                    onCancel={ this.closeModal}
-                        footer = {<LinksWithFooter/>}
-                    width={1200}
-        
-                  >
-                    <FooterContent />
-                    </Modal>
-                      <div>
-                          <StyleButton>Log in</StyleButton>
-                      </div>
-                      <Img src="https://www.tinderpressroom.com/images/tinder_logo_white.png"alt=""/>
-                      {/* <Img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TinderLogo-2017.svg/1280px-TinderLogo-2017.svg.png" alt=""/> */}
-                      {/* <Img src ="https://www.citypng.com/public/uploads/preview/-116006065101sllmxyokh.png" /> */}
-                      
-                  </ToolBar>
-              
-                
-            </div>
-        )
-    }
+class Navbar extends Component {
+  state = {
+    modalVisible: false,
+  };
+
+  setModalVisible = () => {
+    this.setState({
+      modalVisible: true,
+    });
+  };
+  closeModal = () => {
+    this.setState({
+      modalVisible: false,
+    });
+  };
+
+  render() {
+    return (
+      <div>
+        <ToolBar>
+         
+          <Div onClick={this.setModalVisible}>
+            <ColoredLine></ColoredLine>
+            <ColoredLine></ColoredLine>
+            <ColoredLine></ColoredLine>
+          </Div>
+          <Modal
+            title={<Header />}
+            style={{ top: 0 }}
+            visible={this.state.modalVisible}
+            onCancel={this.closeModal}
+            footer={<LinksWithFooter />}
+            width={1200}
+          >
+            <FooterContent />
+          </Modal>
+          <div>
+            <StyleButton>Log in</StyleButton>
+          </div>
+          <Img
+            src="https://www.tinderpressroom.com/images/tinder_logo_white.png"
+            alt=""
+          />
+          {/* <Img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TinderLogo-2017.svg/1280px-TinderLogo-2017.svg.png" alt=""/> */}
+          {/* <Img src ="https://www.citypng.com/public/uploads/preview/-116006065101sllmxyokh.png" /> */}
+        </ToolBar>
+      </div>
+    );
+  }
 }
-export {Navbar}
+export { Navbar };

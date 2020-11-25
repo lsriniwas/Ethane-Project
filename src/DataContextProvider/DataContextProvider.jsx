@@ -2,12 +2,14 @@ import React, { Component } from 'react'
 import axios from "axios"
 import Data from './Data.json'
 
+// src={process.env.PUBLIC_URL + "/tumblr.png"}
 
 export const DataContext=React.createContext();
 export class DataContextProvider extends Component {
     constructor(props){
         super(props)
         this.state={
+            isAuth:false,
             entireData:[],
             isLoading:false,
             error:null,
@@ -16,14 +18,28 @@ export class DataContextProvider extends Component {
             presentUser:[],
             data: Data,
             gender: "",
+            moreInfo:false
           }
+          this.handleLogout = this.handleLogout(this)
+
         this.getAllUserData=this.getAllUserData.bind(this)
         this.newUserData=this.newUserData.bind(this)
         
     }
     
+    handleMoreInfo=()=>{
+      this.setState({
+          moreInfo:!this.state.moreInfo
+      })
+  }
+
     //pushing new user details to db JSON 
-    
+    handleLogout(){
+      this.setState({
+        isAuth:false
+      })
+    }
+
     newUserData({payload}){
       console.log(payload)
       const { username,
@@ -85,9 +101,10 @@ export class DataContextProvider extends Component {
           })
       }
     render() {
-        const {entireData,isLoading,error,passionList,sexualOreint,gender, data,presentUser }=this.state
-        const {newUserData,getAllUserData}=this
-        const value={getAllUserData,entireData,isLoading,error,passionList,sexualOreint,newUserData,gender,data,presentUser }
+        const {entireData,isLoading,error,passionList,sexualOreint,gender, data,presentUser,moreInfo }=this.state
+        const {newUserData,getAllUserData,handleLogout,handleMoreInfo}=this
+        const value={moreInfo,handleMoreInfo,getAllUserData,handleLogout,entireData,isLoading,error,passionList,sexualOreint,newUserData,gender,data,presentUser }
+
         return (
             <DataContext.Provider value={value}> 
                 {this.props.children}

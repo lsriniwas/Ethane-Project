@@ -6,7 +6,7 @@ import { LoginModals } from '../Modals/LoginModals'
 import {Navbar} from "../Navbar/Navbar"
 
 const BackgroundWrapper=styled.div`
-
+box-shadow: inset 0px 90px 50px 30px hsla(0,0%,0%,.5);
 background-image:url("https://tinder.com/static/build/m/b07fe760ab4714aa3e932a15657494e5.webp");
 background-size: cover;
 bottom :0px;
@@ -44,7 +44,7 @@ display:flex;
 position:relative;
 flex-direction:row-reverse;
 bottom:0;
-margin-top:130px;
+margin-top:200px;
 
 color:white;
 font-size:12px;
@@ -64,6 +64,7 @@ export class Home extends Component {
                    <Div>
                    <Navbar />
                    <Divgap></Divgap>
+             
                        <Head>Swipe Right® </Head>
                      {/* <Button >CREATE ACCOUNT</Button>  */}
                      <LoginModals history={history} />

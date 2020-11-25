@@ -59,10 +59,7 @@ const Button=styled.button`
 
     ${props=>props.other?` border:2px solid #fd5068 !important;
     color: #fd5068;`:``}
-    // &:hover{
-    //     border:2px solid #fd5068 !important;
-    //     color: #fd5068;
-    // }
+   
 `
 
 export class SignUp extends Component {
@@ -171,8 +168,8 @@ export class SignUp extends Component {
 
           const{history}=this.props
           history.push("/app/recs")
-          
-               
+        
+        
         }
         handlePassion=(e)=>{
                 e.preventDefault();
