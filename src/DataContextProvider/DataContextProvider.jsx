@@ -8,6 +8,8 @@ export class DataContextProvider extends Component {
     constructor(props){
         super(props)
         this.state={
+          isAuth:false,
+
             entireData:[],
             isLoading:false,
             error:null,
@@ -17,13 +19,20 @@ export class DataContextProvider extends Component {
             data: Data,
             gender: "",
           }
+          this.handleLogout = this.handleLogout(this)
+
         this.getAllUserData=this.getAllUserData.bind(this)
         this.newUserData=this.newUserData.bind(this)
         
     }
     
     //pushing new user details to db JSON 
-    
+    handleLogout(){
+      this.setState({
+        isAuth:false
+      })
+    }
+
     newUserData({payload}){
       console.log(payload)
       const { username,
@@ -86,8 +95,9 @@ export class DataContextProvider extends Component {
       }
     render() {
         const {entireData,isLoading,error,passionList,sexualOreint,gender, data,presentUser }=this.state
-        const {newUserData,getAllUserData}=this
-        const value={getAllUserData,entireData,isLoading,error,passionList,sexualOreint,newUserData,gender,data,presentUser }
+        const {newUserData,getAllUserData,handleLogout}=this
+        const value={getAllUserData,handleLogout,entireData,isLoading,error,passionList,sexualOreint,newUserData,gender,data,presentUser }
+
         return (
             <DataContext.Provider value={value}> 
                 {this.props.children}
