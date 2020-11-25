@@ -15,8 +15,6 @@ position:relative;
 top :0px;
 width: 100%;
 `
-
-
 const Div=styled.div`
 background: rgba(0, 0, 0, 0.3);
 background-color: rgba(0, 0, 0, 0.3);
@@ -56,6 +54,7 @@ export class Home extends Component {
    
     render() {
         const {history}=this.props
+        console.log(this.props)
         return (
             <div>
 

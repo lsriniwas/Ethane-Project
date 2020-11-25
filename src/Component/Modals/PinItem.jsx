@@ -8,10 +8,7 @@ const style = {
 };
 
 class PinItem extends React.Component {
-  constructor(props) { 
-    super(props);
-    
-  }
+  
   handleKeyUp = (e) => {
     if (e.keyCode === 8 && !this.input.value) {
       this.props.onBackspace(e);

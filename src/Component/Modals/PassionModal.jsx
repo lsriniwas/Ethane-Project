@@ -23,17 +23,7 @@ export class PassionModal extends Component {
              padding:5% 35.1% 5% 35.1%;
                 height:100vh;
                 overflow:hidden;
-
-            
         ` 
-        const ModalData=styled.div`
-
-            text-align:left;
-        
-            .header{
-            text-align:center;
-                }
-        `
         const Modal=styled.div`
             border-radius:10px;
             padding:20px;

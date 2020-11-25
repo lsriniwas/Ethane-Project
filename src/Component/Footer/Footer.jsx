@@ -2,19 +2,6 @@
 import React from "react"
 import Styled from "styled-components";
 
-const InfoBox = Styled.div`
-height:200px;
-margin:5px;
-width:200px;
-cursor:pointer;
-color:grey;
-&:hover {
-    color:#ff7979;
-    }
-
-`;
-
-
 const Img = Styled.img`
 height:50px`;
 

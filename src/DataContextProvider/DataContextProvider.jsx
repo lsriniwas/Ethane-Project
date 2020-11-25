@@ -85,9 +85,9 @@ export class DataContextProvider extends Component {
           })
       }
     render() {
-        const {entireData,isLoading,error,passionList,sexualOreint,gender, data }=this.state
-        const {newUserData}=this
-        const value={entireData,isLoading,error,passionList,sexualOreint,newUserData,gender,data }
+        const {entireData,isLoading,error,passionList,sexualOreint,gender, data,presentUser }=this.state
+        const {newUserData,getAllUserData}=this
+        const value={getAllUserData,entireData,isLoading,error,passionList,sexualOreint,newUserData,gender,data,presentUser }
         return (
             <DataContext.Provider value={value}> 
                 {this.props.children}

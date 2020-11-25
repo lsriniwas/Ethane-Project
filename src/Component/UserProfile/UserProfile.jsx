@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import styled from "styled-components"
 import { DataContext } from '../../DataContextProvider/DataContextProvider'
 import dp from "../../Images/img4.jpg"
+
 const ProfileView=styled.div`
     margin:0;
 `
@@ -10,7 +11,6 @@ const SideNavBar=styled.div`
     width:375px;
     height:100vh;
     border:1px solid black;
-    flex:1;
 `
 const SideHeader=styled.div`
 
@@ -37,40 +37,17 @@ cursor:pointer;
     }
 `
 
-const BagImage=styled.div`
-border:1px solid black;
-padding:1px 3px;
-    flex-grow:2;
-    display:flex;
 
-    & h5 {
-        color:white;
-    }
-
-    // & div{
-    //    display: ${props=>props.text?"none":"flex"};
-    // } 
-
-    // &:hover {
-    //     display: ${props=>props.text && "flex"};
-    // }
-
-`
-export class Profile extends Component {
-
-    handleProfile=()=>{
-        const {history}=this.props;
-        history.push("/app/profile")
-    }
-
+export class UserProfile extends Component {
     render() {
-        const {presentUser}=this.context
-        console.log(presentUser)
-        // console.log(imgSrc)
-        return presentUser.length===0 && (
-            <ProfileView>
+        return (
+            <div>
+                <ProfileView>
                    <SideNavBar>
                         <SideHeader>
+                            <div>
+                            <i class='fas fa-angle-left' style={{fontSize:"48px",color:"blue"}}></i>
+                            </div>
                             <ProfilePic onClick={this.handleProfile}>
                                    <div  style={{margin:0,border:"2px solid white",borderRadius:"100px",width:"34px",padding:0,background:"white"}}>
                                        <img src={dp} alt="" width="30px" height="30px"  style={{borderRadius:"100px",overflow:"hidden",margin:0}} />
@@ -82,21 +59,13 @@ export class Profile extends Component {
                                    </div>
 
                             </ProfilePic>
-                            <BagImage>
-                               <div style={{width:"150px",justifyContent:"space-between",textAlign:"center",display:"flex",border:"2px solid white",padding:"1px",borderRadius:"100px",overflow:"hidden",margin:0,}}>
-                                   <div IMG>
-                                   <img src="https://www.flaticon.com/svg/static/icons/svg/2910/2910795.svg"  width="20px" height="20px"  alt=""/>
-                                   </div>
-                                   <div style={{textAlign:"center",marginTop:"5px",marginLeft:"5px"}} text>
-                                    <h5>WORK MODE</h5>
-                                   </div>
-                               </div>
-                            </BagImage>
                         </SideHeader>
                    </SideNavBar>               
             </ProfileView>
+            </div>
         )
     }
 }
 
-Profile.contextType=DataContext
+
+UserProfile.contextType=DataContext

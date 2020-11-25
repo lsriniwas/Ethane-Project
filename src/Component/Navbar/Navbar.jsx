@@ -4,16 +4,8 @@ import {LinksWithFooter} from "../Footer/Footer"
 import {Header} from "../Footer/Header"
 import {FooterContent} from "../Footer/Content"
 import "antd/dist/antd.css";
-import { Modal,Button} from "antd";
+import { Modal} from "antd";
 
-const Nav=Styled.div`
-background-color:whitesmoke;
-position:fixed;
-text-align:center;
-width:100vw;
-z-index:100;
-}
-`
 
 const ToolBar = Styled.div`
 // background: linear-gradient(180deg, rgba(0,0,0,3) 20%, transparent 50%);  

@@ -1,6 +1,6 @@
 import React from "react";
 import "antd/dist/antd.css";
-import { Modal, Button } from "antd";
+import { Modal } from "antd";
 import { Pin } from "./Pin";
 import tindericon from "../../Images/tindericon.png"
 
