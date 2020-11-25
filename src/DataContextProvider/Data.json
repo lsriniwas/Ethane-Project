@@ -1,0 +1,73 @@
+{
+    "profiles": [
+      
+        { "id":1,
+        "username":"admin1",
+        "password":"admin1",
+        "first_name":"Lanka",
+        "last_name":"Sriniwas",
+        "gender":"male",
+        "email": "admin1@huhu.com",
+        "age":199,
+        "imgSrc":["https://i.pinimg.com/474x/5e/e6/27/5ee627fc612b3f7fd2eda7e7faae1d59.jpg",
+            "https://i.pinimg.com/474x/51/df/da/51dfda762a3937aa47847962b71ddfc4.jpg",
+            "https://i.pinimg.com/474x/cf/17/07/cf17077ff7022b7489272a4112c1ca98.jpg"
+        ],
+        "passions":["Cat lover","Maggi","Politics","Instagram","Fishing","Dog lover","Yoga"],
+        "about":"WOW",
+        "liked":[2,4],
+        "location":"Bangalore"
+      },
+      { "id":2,
+        "username":"admin2",
+        "password":"admin2",
+        "first_name":"admin2",
+        "last_name":"admin2",
+        "gender":"male",
+        "email": "admin1@huhu.com",
+        "age":199,
+        "imgSrc":["https://i.pinimg.com/474x/4a/10/77/4a10772edb9aa4ce3528567d2a9dfa99.jpg",
+            "https://i.pinimg.com/474x/d8/61/71/d861713bff39121c31e460003b949531.jpg",
+            "https://i.pinimg.com/474x/cc/3e/8e/cc3e8e236f687c7f923758764f555b51.jpg"
+        ],
+        "passions":["Cat lover","Maggi","Politics","Instagram","Fishing","Dog lover","Yoga"],
+        "about":"WOW",
+        "liked":[3,4],
+        "location":"Bangalore"
+      },
+      { "id":3,
+        "username":"admin3",
+        "password":"admin3",
+        "first_name":"admin3",
+        "last_name":"admin3",
+        "gender":"male",
+        "email": "admin1@huhu.com",
+        "age":199,
+        "imgSrc":["https://i.pinimg.com/474x/d2/6f/1c/d26f1cfc9eb2bfbfa58cfceeab3ce1de.jpg",
+            "https://i.pinimg.com/474x/d0/ee/d0/d0eed06084482bd17a5936e14f01dc2f.jpg",
+            "https://i.pinimg.com/474x/d0/09/e1/d009e1b037a458364fbf5509dedf1212.jpg"
+        ],
+        "passions":["Cat lover","Maggi","Politics","Instagram","Fishing","Dog lover","Yoga"],
+        "about":"WOW",
+        "liked":[1,2],
+        "location":"Bangalore"
+      },
+      { "id":4,
+        "username":"admin4",
+        "password":"admin4",
+        "first_name":"admin4",
+        "last_name":"admin4",
+        "gender":"male",
+        "email": "admin1@huhu.com",
+        "age":199,
+        "imgSrc":["https://i.pinimg.com/474x/8f/76/25/8f762579d5d32380bdad29599d6a98e6.jpg",
+            "https://i.pinimg.com/474x/43/05/ea/4305ea341435ded69d607dd0fd306d37.jpg",
+            "https://i.pinimg.com/474x/b1/84/9b/b1849b78abc5be386a7f7fdff0c108cb.jpg"
+        ],
+        "passions":["Cat lover","Maggi","Politics","Instagram","Fishing","Dog lover","Yoga"],
+        "about":"WOW",
+        "liked":[1,2],
+        "location":"Bangalore"
+      }
+    ]
+  }
