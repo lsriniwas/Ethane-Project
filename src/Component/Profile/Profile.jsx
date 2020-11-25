@@ -7,6 +7,7 @@ import MainFeature from './MainFeature'
 const ProfileView=styled.div`
     margin:0;
     display: flex;
+
 `
 const SideNavBar=styled.div`
     position:fixed;
@@ -67,8 +68,7 @@ export class Profile extends Component {
     }
 
     render() {
-        const {history} = this.props
-        console.log(history)
+
         const {presentUser}=this.context
         console.log(presentUser)
         // console.log(imgSrc)
@@ -102,6 +102,7 @@ export class Profile extends Component {
                    <div>
                         <MainFeature history = {history} />
                     </div>        
+
             </ProfileView>
         )
     }

@@ -9,6 +9,7 @@ export class DataContextProvider extends Component {
         super(props)
         this.state={
           isAuth:false,
+
             entireData:[],
             isLoading:false,
             error:null,
@@ -19,6 +20,7 @@ export class DataContextProvider extends Component {
             gender: "",
           }
           this.handleLogout = this.handleLogout(this)
+
         this.getAllUserData=this.getAllUserData.bind(this)
         this.newUserData=this.newUserData.bind(this)
         
@@ -30,6 +32,7 @@ export class DataContextProvider extends Component {
         isAuth:false
       })
     }
+
     newUserData({payload}){
       console.log(payload)
       const { username,
@@ -94,6 +97,7 @@ export class DataContextProvider extends Component {
         const {entireData,isLoading,error,passionList,sexualOreint,gender, data,presentUser }=this.state
         const {newUserData,getAllUserData,handleLogout}=this
         const value={getAllUserData,handleLogout,entireData,isLoading,error,passionList,sexualOreint,newUserData,gender,data,presentUser }
+
         return (
             <DataContext.Provider value={value}> 
                 {this.props.children}

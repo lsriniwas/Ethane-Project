@@ -4,6 +4,7 @@ import { DataContext } from '../../DataContextProvider/DataContextProvider'
 import dp from "../../Images/img4.jpg"
 import { ViewProfileInfo } from '../ProfileInfo/ViewParticularProfile'
 
+
 const ProfileView=styled.div`
     margin:0;
 `
@@ -62,6 +63,7 @@ export class UserProfile extends Component {
                             </ProfilePic>
                         </SideHeader>
                         <ViewProfileInfo/>
+
                    </SideNavBar>               
             </ProfileView>
             </div>
