@@ -98,7 +98,7 @@ export class Profile extends Component {
               >
                 <img
                  
-                  src={dp}
+                  src={presentUser.imgSrc}
                   alt=""
                   width="30px"
                   height="30px"

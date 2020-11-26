@@ -65,6 +65,17 @@ text-align:left;
         }
         `
 
+        const Button=styled.button`
+        padding: 10px 10px;
+        border-radius: 100px;
+        width: 100px;
+        outline:none;
+        color:white;
+        border:none;
+        font-weight:700;
+        background: linear-gradient(262deg, #ff7854, #fd267d);
+        `
+
 export class UserProfileEdit extends Component {
 
 
@@ -86,7 +97,7 @@ export class UserProfileEdit extends Component {
                                 <label htmlFor="about">ABOUT USER</label>
                             </div>
                             <div>
-                                <textarea name="about" style={{width:"375px",height:"86px !important",overflow:"scroll"}} ></textarea>
+                                <textarea name="about" style={{width:"375px",height:"86px !important",overflow:"scroll"}} >{presentUser.about}</textarea>
                             </div>
                         </Grey>
                         <White>
@@ -145,7 +156,7 @@ export class UserProfileEdit extends Component {
                                 <input type="text" name="" id="" placeholder="Select"/>
                             </div>
                         </White>
-                    <button onClick={this.handleGoback} style={{position:"sticky"}}>goback</button>
+                    <Button onClick={this.handleGoback} style={{position:"sticky"}}>Save</Button>
                                  
                 </UserEditCard>
                            

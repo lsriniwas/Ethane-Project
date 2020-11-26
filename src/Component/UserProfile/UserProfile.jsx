@@ -51,6 +51,7 @@ export class UserProfile extends Component {
         }
     render() {
         console.log(this.props)
+        const {presentUser}=this.context
         const {history}=this.props
         return (
             <div>
@@ -62,7 +63,7 @@ export class UserProfile extends Component {
                             </div>
                             <ProfilePic>
                                    <div  style={{margin:0,border:"1px solid white",borderRadius:"100px",width:"34px",padding:0,background:"white"}}>
-                                       <img src={dp} alt="" width="30px" height="30px"  style={{borderRadius:"100px",overflow:"hidden",margin:0}} />
+                                       <img src={presentUser.imgSrc} alt="" width="30px" height="30px"  style={{borderRadius:"100px",overflow:"hidden",margin:0}} />
                                    </div>
                                    <div style={{marginLeft:"10px",cursor: "context-menu"}}>
                                    <h4 style={{color:"white"}}>
