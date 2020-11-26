@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { DataContext } from "../../DataContextProvider/DataContextProvider";
 import dp from "../../Images/img4.jpg";
+import { SwitchTab } from "../Match&Messages/ToggleMessageMatch";
 import { ViewProfileInfo } from "../ProfileInfo/ViewParticularProfile";
 import MainFeature from "./MainFeature";
 
@@ -10,6 +11,7 @@ const ProfileView = styled.div`
 `;
 const SideNavBar = styled.div`
   position: fixed;
+  background-color:white;
   width: 375px;
   height: 100vh;
   border: 1px solid #e0e4e9;
@@ -137,6 +139,7 @@ export class Profile extends Component {
               </Hover>
             </BagImage>
           </SideHeader>
+          <SwitchTab/>
         </SideNavBar>
       </ProfileView>
       

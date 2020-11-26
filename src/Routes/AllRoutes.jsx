@@ -18,6 +18,7 @@ export class AllRoutes extends Component {
                 <Route path="/app/onboarding" exact render={(props)=><SignUp {...props}/>} />
                 <Route path="/app/profile" exact render={(props)=><UserProfile {...props}/>} />
                 <Route path="/app/profile/edit" exact render={(props)=><UserProfile {...props}/>} />
+            
                 <Route render={()=><Error/>}/>
                 </Switch>
             </div>

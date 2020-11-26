@@ -118,12 +118,12 @@ class ViewProfileInfo extends React.Component{
         this.state = {
             data:[]
         }
-      //  this.handleUserLogout = this.handleUserLogout(this)
+       this.handleUserLogout = this.handleUserLogout.bind(this)
     }
-    // handleUserLogout(){
-    //     const {handleLogout} = this.context
-    //     handleLogout()
-    // }
+    handleUserLogout(){
+        const {history} = this.props
+        history.push("/")
+    }
 
 componentDidMount(){
     const {entireData} = this.context;
@@ -319,7 +319,8 @@ render(){
      <InfoLines style = {{textAlign:"center"}}>Share Tinder</InfoLines>
      <br></br>
            <br></br>
-           <Button>Logout</Button>
+           <Button
+           onClick = {this.handleUserLogout}>Logout</Button>
            <br>
            </br>
            <img 

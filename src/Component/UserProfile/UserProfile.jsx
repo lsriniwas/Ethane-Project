@@ -72,7 +72,7 @@ export class UserProfile extends Component {
                                    </div>
                             </ProfilePic>
                         </SideHeader>
-                        <ViewProfileInfo />
+                        <ViewProfileInfo history = {history} />
                    </SideNavBar> 
                      <UserProfileCard history={history}/>
             </ProfileView>
