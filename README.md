@@ -39,7 +39,7 @@ Clone down this repository. You will need node and npm installed globally on you
  <h3>Lakshmi</h3>👱‍
 - gitHub@[lakshmi](https://github.com/lakshmi)
 <h3>Anant Jain</h3>👨‍ 
-- GitHub@[Anantjain226](https://github.com/Anantjain226) 
+- gitHub@[anantjain226](https://github.com/anantjain226) 
 <h3>Lanka Sriniwas</h3> 👨‍ 
 - gitHub@[lsriniwas](https://github.com/lsriniwas)
 
