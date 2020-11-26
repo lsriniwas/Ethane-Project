@@ -38,14 +38,13 @@ text-align:center;
 `;
 
 const RatingBox = Styled.div`
-margin-top:22px;
+margin-top:30px;
 background-color:white;
 height:80px;
 width:110px;
 margin:auto;
 text-align:center;
 color:dark-grey;
-
 margin-bottom:8px;
 
 `;
@@ -61,9 +60,7 @@ margin-bottom:2px;
 padding-left:4px;
 `;
 const FlexInfo = Styled.div`
-padding-left:6px;
-padding-right:6px;
-padding-top:4px;
+padding: 7px 7px 7px 7px;
 font-size:12px;
 width:40%;
 height:20px;
@@ -177,7 +174,7 @@ render(){
             </Flexbox>
             <Flexbox>
                 <FlexInfo  style= {{textAlign:"left"}}>Phone Number</FlexInfo>
-                <FlexInfo>+9123903002</FlexInfo>
+                <FlexInfo>+91 9811165463 </FlexInfo>
             </Flexbox>
             <InfoLines  style= {{textAlign:"left"}}>Promo Code</InfoLines>
             <Span>Verify a Phone Number and Email to help secure 
@@ -275,43 +272,43 @@ render(){
            <P>LANGUAGE</P>
         <Flexbox>
                <FlexInfo>Language</FlexInfo>
-               <FlexInfo style = {{width:"40%",textAlign:"right"}}> {`English->` }</FlexInfo>
+               <FlexInfo style = {{width:"40%",textAlign:"right"}}> {`English >` }</FlexInfo>
            </Flexbox>
            <P>HELP & SUPPORT</P>
         <Flexbox>
                <FlexInfo style = {{width:"70%",textAlign:"left"}}>Help & Support</FlexInfo>
-               <FlexInfo style = {{width:"40%",textAlign:"right"}}> {`->`}</FlexInfo>
+               <FlexInfo style = {{width:"40%",textAlign:"right"}}> {`>`}</FlexInfo>
            </Flexbox>
            <P>COMMUNITY</P>
 
            <Flexbox>
                <FlexInfo style = {{width:"70%",textAlign:"left"}}>Community Guidelines</FlexInfo>
-               <FlexInfo style = {{width:"40%",textAlign:"right"}}> {`->`}</FlexInfo>
+               <FlexInfo style = {{width:"40%",textAlign:"right"}}> {`>`}</FlexInfo>
            </Flexbox>
            <Flexbox>
                <FlexInfo style = {{width:"60%",textAlign:"left"}}>Safety & Policy Center</FlexInfo>
-               <FlexInfo style = {{width:"40%",textAlign:"right"}}>{`->`}</FlexInfo>
+               <FlexInfo style = {{width:"40%",textAlign:"right"}}>{`>`}</FlexInfo>
            </Flexbox>
            <Flexbox>
                <FlexInfo style = {{width:"60%",textAlign:"left"}}>Safety Tips</FlexInfo>
-               <FlexInfo style = {{width:"40%",textAlign:"right"}}>{`->`}</FlexInfo>
+               <FlexInfo style = {{width:"40%",textAlign:"right"}}>{`>`}</FlexInfo>
            </Flexbox>
            <P>LEGAL</P>
            <Flexbox>
                <FlexInfo style = {{width:"60%",textAlign:"left"}}>Privacy Settings</FlexInfo>
-               <FlexInfo style = {{width:"40%",textAlign:"right"}}>{`->`}</FlexInfo>
+               <FlexInfo style = {{width:"40%",textAlign:"right"}}>{`>`}</FlexInfo>
            </Flexbox>
            <Flexbox>
                <FlexInfo style = {{width:"60%",textAlign:"left"}}>Cookie Policy</FlexInfo>
-               <FlexInfo style = {{width:"40%",textAlign:"right"}}>{`->`}</FlexInfo>
+               <FlexInfo style = {{width:"40%",textAlign:"right"}}>{`>`}</FlexInfo>
            </Flexbox>
            <Flexbox>
                <FlexInfo style = {{width:"60%",textAlign:"left"}}>Privacy Policy</FlexInfo>
-               <FlexInfo style = {{width:"40%",textAlign:"right"}}>{`->`}</FlexInfo>
+               <FlexInfo style = {{width:"40%",textAlign:"right"}}>{`>`}</FlexInfo>
            </Flexbox>
            <Flexbox>
                <FlexInfo style = {{width:"60%",textAlign:"left"}}>Terms of Service</FlexInfo>
-               <FlexInfo style = {{width:"40%",textAlign:"right"}}>{`->`}</FlexInfo>
+               <FlexInfo style = {{width:"40%",textAlign:"right"}}>{`>`}</FlexInfo>
            </Flexbox>
            <br></br>
            <br></br>

@@ -56,7 +56,7 @@ const Hover = styled.div`
     display: block;
   }
   &:hover .imga{
-    margin-top:5px;
+    // margin-top:5px;
     margin-left:5px;
   }
   &:hover {
@@ -112,7 +112,7 @@ export class Profile extends Component {
                 />
               </div>
               <div style={{ marginLeft: "10px", color: "white" }}>
-                <h4 style={{ color: "white" }}>My Profile</h4>
+                <h2 style={{ color: "white", marginRight: 30 }}>My Profile</h2>
               </div>
             </ProfilePic>
             <BagImage>
@@ -130,9 +130,9 @@ export class Profile extends Component {
                 <div  className="imga">
                   <img
                     src="https://www.flaticon.com/svg/static/icons/svg/2910/2910795.svg"
-                    width="20px"
+                    width="40px"
                     height="20px"
-                    
+                    style = {{marginTop: 10}}
                     alt=""
                   />
                 </div>

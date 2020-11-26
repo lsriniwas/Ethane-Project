@@ -6,14 +6,14 @@
           "password":"admin1",
           "first_name":"Meghan",
           "last_name":"Markle",
-          "gender":"female",
+          "gender":"Female",
           "age": 32,
           "imgSrc":["https://i.pinimg.com/474x/85/d1/11/85d1117f4772ede8e58a7ae32273bbfd.jpg",
               "https://i.pinimg.com/564x/ba/5d/c5/ba5dc55c538c99d478f0581d5e6da184.jpg",
               "https://i.pinimg.com/474x/1e/bf/4a/1ebf4a37825d7cb2cc998b450e0cb9b3.jpg"
           ],
           "passions":["Cat lover","Maggi","Politics","Instagram","Fishing","Dog lover","Yoga"],
-          "about":"WOW",
+          "about":"I think I lost my phone number. Can I have yours?",
           "liked":false,
           "location":"Bangalore"
         },
@@ -22,14 +22,14 @@
           "password":"admin2",
           "first_name":"Jenifer",
           "last_name":"Anniston",
-          "gender":"female",
+          "gender":"Female",
           "age":40,
           "imgSrc":["https://i.pinimg.com/474x/c1/75/86/c1758642978f3a0af751b20afc0098b8.jpg",
               "https://i.pinimg.com/474x/26/db/95/26db953c0c8b4325ee5400313b60dbb0.jpg",
               "https://i.pinimg.com/474x/a3/99/da/a399dad402052615f8db75d6d4a464ba.jpg"
           ],
           "passions":["Cat lover","Maggi","Politics","Instagram","Fishing","Dog lover","Yoga"],
-          "about":"WOW",
+          "about":"I think I lost my phone number. Can I have yours?",
           "liked":false,
           "location":"Bangalore"
         },
@@ -38,7 +38,7 @@
           "password":"admin3",
           "first_name":"Courtney",
           "last_name":"Cox",
-          "gender":"female",
+          "gender":"Female",
           "age":27,
           "imgSrc":["https://i.pinimg.com/474x/7c/15/34/7c153444b4f9c99092b7cc4c950b2b24.jpg",
             "https://i.pinimg.com/474x/73/c9/68/73c968552feced6a559c9f134e3cd80a.jpg",
@@ -46,7 +46,7 @@
               
           ],
           "passions":["Cat lover","Maggi","Politics","Instagram","Fishing","Dog lover","Yoga"],
-          "about":"WOW",
+          "about":"I think I lost my phone number. Can I have yours?",
           "liked":false,
           "location":"Bangalore"
         },
@@ -55,14 +55,14 @@
           "password":"admin4",
           "first_name":"Priyanka",
           "last_name":"Chopra",
-          "gender":"female",
+          "gender":"Female",
           "age":33,
           "imgSrc":["https://i.pinimg.com/474x/8e/ee/db/8eeedb9733206231012bb19686d889d6.jpg",
               "https://i.pinimg.com/474x/30/a0/7a/30a07ad4382d49058eb2fe396d39b925.jpg",
               "https://i.pinimg.com/474x/89/3c/82/893c82586956364ea1b510cb5f721031.jpg"
           ],
           "passions":["Cat lover","Maggi","Politics","Instagram","Fishing","Dog lover","Yoga"],
-          "about":"WOW",
+          "about":"I think I lost my phone number. Can I have yours?",
           "liked": false,
           "location":"Bangalore"
         },
@@ -71,14 +71,14 @@
           "password":"admin4",
           "first_name":"Anne",
           "last_name":"Hathaway",
-          "gender":"female",
+          "gender":"Female",
           "age":33,
           "imgSrc":["https://i.pinimg.com/474x/39/f7/b6/39f7b664f68acfe9789e3e5bbd7dc92f.jpg",
               "https://i.pinimg.com/474x/26/43/7a/26437ac7d395550a4cab9b45c0c79724.jpg",
               "https://i.pinimg.com/474x/fb/55/5c/fb555c88059b0b755077f8e48ad4ca35.jpg"
           ],
           "passions":["Cat lover","Maggi","Politics","Instagram","Fishing","Dog lover","Yoga"],
-          "about":"WOW",
+          "about":"I think I lost my phone number. Can I have yours?",
           "liked": false,
           "location":"Bangalore"
         },
@@ -87,14 +87,14 @@
           "password":"admin4",
           "first_name":"Emelia",
           "last_name":"Clarke",
-          "gender":"female",
+          "gender":"Female",
           "age":33,
           "imgSrc":["https://i.pinimg.com/474x/0f/ef/9f/0fef9fa8cb9db7dd6438d67103bfb4ee.jpg",
               "https://i.pinimg.com/474x/4a/70/91/4a709160e7423c71b33d623ee4e3c96f.jpg",
               "https://i.pinimg.com/474x/fe/45/32/fe4532f816da9a2d57fd9417ce621c4f.jpg"
           ],
           "passions":["Cat lover","Maggi","Politics","Instagram","Fishing","Dog lover","Yoga"],
-          "about":"WOW",
+          "about":"I think I lost my phone number. Can I have yours?",
           "liked": false,
           "location":"Bangalore"
         },
@@ -120,7 +120,7 @@
             "Dog lover",
             "Yoga"
           ],
-          "about": "WOW",
+          "about": "I think I lost my phone number. Can I have yours?",
           "liked": false,
           "location": "Bangalore"
         },
@@ -146,7 +146,7 @@
             "Dog lover",
             "Yoga"
           ],
-          "about": "WOW",
+          "about": "I think I lost my phone number. Can I have yours?",
           "liked": false,
           "location": "Bangalore"
         },
@@ -172,7 +172,7 @@
             "Dog lover",
             "Yoga"
           ],
-          "about": "WOW",
+          "about": "I think I lost my phone number. Can I have yours?",
           "liked": false,
           "location": "Bangalore"
         },
@@ -198,7 +198,7 @@
             "Dog lover",
             "Yoga"
           ],
-          "about": "WOW",
+          "about": "I think I lost my phone number. Can I have yours?",
           "liked": false,
           "location": "Bangalore"
         }

@@ -252,7 +252,7 @@ export const SlideShow = ({currentData, onClick, history,like, nope, superLike, 
   } 
   else {
     return (
-      <ProfileDesc />
+      <ProfileDesc data = {data} history = {history} />
     )
   }
 } 

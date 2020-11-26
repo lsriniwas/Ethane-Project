@@ -33,11 +33,11 @@ export class DataContextProvider extends Component {
           moreInfo:!this.state.moreInfo
       })
     }
-  handleMoreFeatures=()=>{
-    this.setState({
-        moreFeatures:!this.state.moreFeatures
-    })
-  }
+    handleMoreFeatures=()=>{
+      this.setState({
+          moreFeatures:!this.state.moreFeatures
+      })
+    }
 
     //pushing new user details to db JSON 
     handleLogout(){

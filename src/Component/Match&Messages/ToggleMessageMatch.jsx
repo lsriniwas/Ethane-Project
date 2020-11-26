@@ -63,7 +63,7 @@ class SwitchTab extends React.Component{
                     </>
                 ) :(
                     <>
-                     <Img src ={likesmessages} alt = "show Messages" />
+                     <div ><Img src ={likesmessages} alt = "show Messages" /></div>
                     </>
                 )}
                  </>

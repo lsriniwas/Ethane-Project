@@ -77,15 +77,15 @@ export class UserProfileCard extends Component {
                          <img width="40px" src={"https://lh3.googleusercontent.com/proxy/8DENmllYGhi7oiB1lsT-hpX_iNoa2UpVvlXNN_dA4CmdHO-6VmypfBQ7XPc0PibMsphHCtweQUJvAdTVh15uCpU45Mt_fF9XjXZGWcJdFD9UHhjR6zyFOQxuiVE"} alt=""/>
                          </h2>
                          </div>
-                         <hr/>
+                         {/* <hr/> */}
                           <div style={{position:"relative"}}>
-                              <span style={{letterSpacing:"2px",fontSize:"14px",fontFamily:"sans-serif",padding:"20px"}}>
+                              {/* <span style={{letterSpacing:"2px",fontSize:"14px",fontFamily:"sans-serif",padding:"20px"}}>
                                 <br/>
                                 Eh, I’ll do this part when I think of something clever.<br/>
                                 Until then keep swiping😃
-                              </span>
+                              </span> */}
                               <br/>
-                                <Button style={{position:"absolute",bottom:0,right:0}}onClick={this.handleMore}>More info</Button>
+                                <Button style={{position:"absolute",bottom:0,right:130}}onClick={this.handleMore}>Edit info</Button>
                           </div>
                      </div>
                  </UserInfo>

@@ -66,9 +66,9 @@ export class UserProfile extends Component {
                                        <img src={presentUser.imgSrc} alt="" width="30px" height="30px"  style={{borderRadius:"100px",overflow:"hidden",margin:0}} />
                                    </div>
                                    <div style={{marginLeft:"10px",cursor: "context-menu"}}>
-                                   <h4 style={{color:"white"}}>
+                                   <h2 style={{color:"white"}}>
                                        My Profile   
-                                   </h4>
+                                   </h2>
                                    </div>
                             </ProfilePic>
                         </SideHeader>
