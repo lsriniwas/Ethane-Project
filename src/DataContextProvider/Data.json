@@ -1,0 +1,206 @@
+{
+  "profiles": [
+    
+      { "id":1,
+          "username":"admin1",
+          "password":"admin1",
+          "first_name":"Meghan",
+          "last_name":"Markle",
+          "gender":"female",
+          "age": 32,
+          "imgSrc":["https://i.pinimg.com/474x/85/d1/11/85d1117f4772ede8e58a7ae32273bbfd.jpg",
+              "https://i.pinimg.com/564x/ba/5d/c5/ba5dc55c538c99d478f0581d5e6da184.jpg",
+              "https://i.pinimg.com/474x/1e/bf/4a/1ebf4a37825d7cb2cc998b450e0cb9b3.jpg"
+          ],
+          "passions":["Cat lover","Maggi","Politics","Instagram","Fishing","Dog lover","Yoga"],
+          "about":"WOW",
+          "liked":false,
+          "location":"Bangalore"
+        },
+        { "id":2,
+          "username":"admin2",
+          "password":"admin2",
+          "first_name":"Jenifer",
+          "last_name":"Anniston",
+          "gender":"female",
+          "age":40,
+          "imgSrc":["https://i.pinimg.com/474x/c1/75/86/c1758642978f3a0af751b20afc0098b8.jpg",
+              "https://i.pinimg.com/474x/26/db/95/26db953c0c8b4325ee5400313b60dbb0.jpg",
+              "https://i.pinimg.com/474x/a3/99/da/a399dad402052615f8db75d6d4a464ba.jpg"
+          ],
+          "passions":["Cat lover","Maggi","Politics","Instagram","Fishing","Dog lover","Yoga"],
+          "about":"WOW",
+          "liked":false,
+          "location":"Bangalore"
+        },
+        { "id":3,
+          "username":"admin3",
+          "password":"admin3",
+          "first_name":"Courtney",
+          "last_name":"Cox",
+          "gender":"female",
+          "age":27,
+          "imgSrc":["https://i.pinimg.com/474x/7c/15/34/7c153444b4f9c99092b7cc4c950b2b24.jpg",
+            "https://i.pinimg.com/474x/73/c9/68/73c968552feced6a559c9f134e3cd80a.jpg",
+              "https://i.pinimg.com/474x/a0/40/49/a040493ed12d2b7ced8b614bf5abab82.jpg"
+              
+          ],
+          "passions":["Cat lover","Maggi","Politics","Instagram","Fishing","Dog lover","Yoga"],
+          "about":"WOW",
+          "liked":false,
+          "location":"Bangalore"
+        },
+        { "id":4,
+          "username":"admin4",
+          "password":"admin4",
+          "first_name":"Priyanka",
+          "last_name":"Chopra",
+          "gender":"female",
+          "age":33,
+          "imgSrc":["https://i.pinimg.com/474x/8e/ee/db/8eeedb9733206231012bb19686d889d6.jpg",
+              "https://i.pinimg.com/474x/30/a0/7a/30a07ad4382d49058eb2fe396d39b925.jpg",
+              "https://i.pinimg.com/474x/89/3c/82/893c82586956364ea1b510cb5f721031.jpg"
+          ],
+          "passions":["Cat lover","Maggi","Politics","Instagram","Fishing","Dog lover","Yoga"],
+          "about":"WOW",
+          "liked": false,
+          "location":"Bangalore"
+        },
+        { "id":5,
+          "username":"admin4",
+          "password":"admin4",
+          "first_name":"Anne",
+          "last_name":"Hathaway",
+          "gender":"female",
+          "age":33,
+          "imgSrc":["https://i.pinimg.com/474x/39/f7/b6/39f7b664f68acfe9789e3e5bbd7dc92f.jpg",
+              "https://i.pinimg.com/474x/26/43/7a/26437ac7d395550a4cab9b45c0c79724.jpg",
+              "https://i.pinimg.com/474x/fb/55/5c/fb555c88059b0b755077f8e48ad4ca35.jpg"
+          ],
+          "passions":["Cat lover","Maggi","Politics","Instagram","Fishing","Dog lover","Yoga"],
+          "about":"WOW",
+          "liked": false,
+          "location":"Bangalore"
+        },
+        { "id":6,
+          "username":"admin4",
+          "password":"admin4",
+          "first_name":"Emelia",
+          "last_name":"Clarke",
+          "gender":"female",
+          "age":33,
+          "imgSrc":["https://i.pinimg.com/474x/0f/ef/9f/0fef9fa8cb9db7dd6438d67103bfb4ee.jpg",
+              "https://i.pinimg.com/474x/4a/70/91/4a709160e7423c71b33d623ee4e3c96f.jpg",
+              "https://i.pinimg.com/474x/fe/45/32/fe4532f816da9a2d57fd9417ce621c4f.jpg"
+          ],
+          "passions":["Cat lover","Maggi","Politics","Instagram","Fishing","Dog lover","Yoga"],
+          "about":"WOW",
+          "liked": false,
+          "location":"Bangalore"
+        },
+        {
+          "id": 7,
+          "username": "admin1",
+          "password": "admin1",
+          "first_name": "Cristiano",
+          "last_name": "Ronaldo",
+          "gender": "male",
+          "age": 32,
+          "imgSrc": [
+            "https://i.pinimg.com/474x/5e/e6/27/5ee627fc612b3f7fd2eda7e7faae1d59.jpg",
+            "https://i.pinimg.com/474x/21/fc/c7/21fcc7a9a33a55f9579f7cef79007065.jpg",
+            "https://i.pinimg.com/474x/cf/17/07/cf17077ff7022b7489272a4112c1ca98.jpg"
+          ],
+          "passions": [
+            "Cat lover",
+            "Maggi",
+            "Politics",
+            "Instagram",
+            "Fishing",
+            "Dog lover",
+            "Yoga"
+          ],
+          "about": "WOW",
+          "liked": false,
+          "location": "Bangalore"
+        },
+        {
+          "id": 8,
+          "username": "admin2",
+          "password": "admin2",
+          "first_name": "Bradd",
+          "last_name": "Pitt",
+          "gender": "male",
+          "age": 40,
+          "imgSrc": [
+            "https://i.pinimg.com/474x/4a/10/77/4a10772edb9aa4ce3528567d2a9dfa99.jpg",
+            "https://i.pinimg.com/474x/d8/61/71/d861713bff39121c31e460003b949531.jpg",
+            "https://i.pinimg.com/474x/cc/3e/8e/cc3e8e236f687c7f923758764f555b51.jpg"
+          ],
+          "passions": [
+            "Cat lover",
+            "Maggi",
+            "Politics",
+            "Instagram",
+            "Fishing",
+            "Dog lover",
+            "Yoga"
+          ],
+          "about": "WOW",
+          "liked": false,
+          "location": "Bangalore"
+        },
+        {
+          "id": 9,
+          "username": "admin3",
+          "password": "admin3",
+          "first_name": "Daniel",
+          "last_name": "Radcliff",
+          "gender": "male",
+          "age": 27,
+          "imgSrc": [
+            "https://i.pinimg.com/474x/d2/6f/1c/d26f1cfc9eb2bfbfa58cfceeab3ce1de.jpg",
+            "https://i.pinimg.com/474x/d0/ee/d0/d0eed06084482bd17a5936e14f01dc2f.jpg",
+            "https://i.pinimg.com/474x/d0/09/e1/d009e1b037a458364fbf5509dedf1212.jpg"
+          ],
+          "passions": [
+            "Cat lover",
+            "Maggi",
+            "Politics",
+            "Instagram",
+            "Fishing",
+            "Dog lover",
+            "Yoga"
+          ],
+          "about": "WOW",
+          "liked": false,
+          "location": "Bangalore"
+        },
+        {
+          "id": 10,
+          "username": "admin4",
+          "password": "admin4",
+          "first_name": "Edward",
+          "last_name": "Pattinson",
+          "gender": "male",
+          "age": 33,
+          "imgSrc": [
+            "https://i.pinimg.com/474x/8f/76/25/8f762579d5d32380bdad29599d6a98e6.jpg",
+            "https://i.pinimg.com/474x/43/05/ea/4305ea341435ded69d607dd0fd306d37.jpg",
+            "https://i.pinimg.com/474x/b1/84/9b/b1849b78abc5be386a7f7fdff0c108cb.jpg"
+          ],
+          "passions": [
+            "Cat lover",
+            "Maggi",
+            "Politics",
+            "Instagram",
+            "Fishing",
+            "Dog lover",
+            "Yoga"
+          ],
+          "about": "WOW",
+          "liked": false,
+          "location": "Bangalore"
+        }
+  ]
+}
