@@ -36,12 +36,9 @@ Clone down this repository. You will need node and npm installed globally on you
 - Ant Design
 
 ## Contributors
- <h3>Lakshmi</h3>👱‍
-- gitHub@[lakshmi](https://github.com/lakshmi)
-<h3>Anant Jain</h3>👨‍ 
-- gitHub@[anantjain226](https://github.com/anantjain226) 
-<h3>Lanka Sriniwas</h3> 👨‍ 
-- gitHub@[lsriniwas](https://github.com/lsriniwas)
+ <h3>Lakshmi</h3>👱‍- <a href="https://github.com/lakshmi" >Lakshmi</a>
+<h3>Anant Jain</h3>👨‍ -  <a href="https://github.com/anantjain226">anant</a> 
+<h3>Lanka Sriniwas</h3> 👨‍ - <a href="https://github.com/lsriniwas">lsriniwas</a>
 
 ### Acknowledgments
 <div>
