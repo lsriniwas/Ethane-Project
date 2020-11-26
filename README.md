@@ -41,7 +41,7 @@ Clone down this repository. You will need node and npm installed globally on you
 <h3>Anant Jain</h3>👨‍ 
 - GitHub@[Anantjain226](https://github.com/Anantjain226) 
 <h3>Lanka Sriniwas</h3> 👨‍ 
-- gitHub@[lsriniwas](https://github.com/lsriniwas
+- gitHub@[lsriniwas](https://github.com/lsriniwas)
 
 ### Acknowledgments
 <div>
