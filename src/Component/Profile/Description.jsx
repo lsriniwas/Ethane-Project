@@ -6,7 +6,7 @@ export default class Description extends Component {
         const {history} = this.props
 
         return (
-            <div>
+            <div  >
                 <Profile history = {history} />
             </div>
         )

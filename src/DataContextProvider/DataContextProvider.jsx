@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import axios from "axios"
 import Data from './Data.json'
 
-
 export const DataContext=React.createContext();
 export class DataContextProvider extends Component {
     constructor(props){
@@ -15,7 +14,7 @@ export class DataContextProvider extends Component {
             sexualOreint:"",
             presentUser:[],
             data: Data,
-            gender: "",
+            gender: "male",
           }
         this.getAllUserData=this.getAllUserData.bind(this)
         this.newUserData=this.newUserData.bind(this)

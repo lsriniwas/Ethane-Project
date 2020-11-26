@@ -73,36 +73,38 @@ export class Profile extends Component {
         console.log(presentUser)
         // console.log(imgSrc)
         return presentUser.length===0 && (
-            <ProfileView>
-                   <SideNavBar>
-                        <SideHeader>
-                            <ProfilePic onClick={this.handleProfile}>
-                                   <div  style={{margin:0,border:"2px solid white",borderRadius:"100px",width:"34px",padding:0,background:"white"}}>
-                                       <img src={dp} alt="" width="30px" height="30px"  style={{borderRadius:"100px",overflow:"hidden",margin:0}} />
-                                   </div>
-                                   <div style={{marginLeft:"10px"}}>
-                                   <h2>
-                                       My Profile
-                                   </h2>
-                                   </div>
+            <div>
+                <ProfileView>
+                    <SideNavBar>
+                            <SideHeader>
+                                <ProfilePic onClick={this.handleProfile}>
+                                    <div  style={{margin:0,border:"2px solid white",borderRadius:"100px",width:"34px",padding:0,background:"white"}}>
+                                        <img src={dp} alt="" width="30px" height="30px"  style={{borderRadius:"100px",overflow:"hidden",margin:0}} />
+                                    </div>
+                                    <div style={{marginLeft:"10px"}}>
+                                    <h2>
+                                        My Profile
+                                    </h2>
+                                    </div>
 
-                            </ProfilePic>
-                            <BagImage>
-                               <div style={{width:"150px",justifyContent:"space-between",textAlign:"center",display:"flex",border:"2px solid white",padding:"1px",borderRadius:"100px",overflow:"hidden",margin:0,}}>
-                                   <div IMG>
-                                   <img src="https://www.flaticon.com/svg/static/icons/svg/2910/2910795.svg"  width="20px" height="20px"  alt=""/>
-                                   </div>
-                                   <div style={{textAlign:"center",marginTop:"5px",marginLeft:"5px"}} text>
-                                    <h5>WORK MODE</h5>
-                                   </div>
-                               </div>
-                            </BagImage>
-                        </SideHeader>
-                   </SideNavBar>       
-                   <div>
-                        <MainFeature history = {history} />
-                    </div>        
-            </ProfileView>
+                                </ProfilePic>
+                                <BagImage>
+                                <div style={{width:"150px",justifyContent:"space-between",textAlign:"center",display:"flex",border:"2px solid white",padding:"1px",borderRadius:"100px",overflow:"hidden",margin:0,}}>
+                                    <div IMG>
+                                    <img src="https://www.flaticon.com/svg/static/icons/svg/2910/2910795.svg"  width="20px" height="20px"  alt=""/>
+                                    </div>
+                                    <div style={{textAlign:"center",marginTop:"5px",marginLeft:"5px"}} text>
+                                        <h5>WORK MODE</h5>
+                                    </div>
+                                </div>
+                                </BagImage>
+                            </SideHeader>
+                    </SideNavBar>       
+                            
+                </ProfileView>
+                
+                <MainFeature history = {history} />
+            </div> 
         )
     }
 }
