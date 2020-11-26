@@ -6,9 +6,18 @@ In the project directory, tried to clone Tinder. User can sign up , and view oth
     </h4>
  </div>
 
-### Project Screenshots
+**Languages and Tools:**  
 
-### Bulit With
+<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
+<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
+<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
+<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
+### Project Screenshots
+- Landing Page
+![screenshot](./screenshot/landing.png)
+- User Profile
+![screenshot](./screenshot/userProfile.png)
+
 
 ### Installation and Setup Instructions
 
