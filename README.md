@@ -38,6 +38,7 @@ Clone down this repository. You will need node and npm installed globally on you
 <h3>Lanka Sriniwas</h3> 👨‍ 
 - gitHub@[lsriniwas](https://github.com/lsriniwas
 
-Acknowledgments
-<br/>
-We take all the responsiblity for every single line of code. The design inspire from Tinder.
+### Acknowledgments
+<div>
+  We take all the responsiblity for every single line of code. The design inspire from Tinder.
+</div>
