@@ -5,6 +5,7 @@ import { SignUp } from '../Component/SignUp/SignUp'
 import { Profile } from '../Component/Profile/Profile'
 import { UserProfile } from '../Component/UserProfile/UserProfile'
 import {Error} from "../Component/Error/Error"
+import Description from '../Component/Profile/Description'
 export class AllRoutes extends Component {
      
     render() {
@@ -13,6 +14,7 @@ export class AllRoutes extends Component {
                 <Switch>
                 <Route path="/" exact render={(props)=><Home {...props}/>}/>
                 <Route path="/app/recs" exact render={(props)=><Profile {...props}/>} />
+                <Route path="/app/recs/profile" exact render={(props)=><Description {...props}/>} />
                 <Route path="/app/onboarding" exact render={(props)=><SignUp {...props}/>} />
                 <Route path="/app/profile" exact render={(props)=><UserProfile {...props}/>} />
                 <Route path="/app/profile/edit" exact render={(props)=><UserProfile {...props}/>} />

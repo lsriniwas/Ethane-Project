@@ -13,7 +13,6 @@ const SignUpWrapper=styled.div`
         overflow:none;`)}
         position:relative;
         padding:30px 300px;
-    border:1px solid black;
 `
 const FormData=styled.div`
 padding:20px;

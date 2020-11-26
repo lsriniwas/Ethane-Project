@@ -14,7 +14,7 @@ margin-bottom:2px;
 `
 ;
 const InfoBox = Styled.div`
-height:100%;
+height:90vh;
 width:100%;
 background-color:whitesmoke;
 margin:auto;

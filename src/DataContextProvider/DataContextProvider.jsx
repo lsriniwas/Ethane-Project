@@ -18,7 +18,8 @@ export class DataContextProvider extends Component {
             presentUser:[],
             data: Data,
             gender: "",
-            moreInfo:false
+            moreInfo:false,
+            moreFeatures: false
           }
           this.handleLogout = this.handleLogout(this)
 
@@ -31,6 +32,11 @@ export class DataContextProvider extends Component {
       this.setState({
           moreInfo:!this.state.moreInfo
       })
+    }
+  handleMoreFeatures=()=>{
+    this.setState({
+        moreFeatures:!this.state.moreFeatures
+    })
   }
 
     //pushing new user details to db JSON 
@@ -101,9 +107,9 @@ export class DataContextProvider extends Component {
           })
       }
     render() {
-        const {entireData,isLoading,error,passionList,sexualOreint,gender, data,presentUser,moreInfo }=this.state
-        const {newUserData,getAllUserData,handleLogout,handleMoreInfo}=this
-        const value={moreInfo,handleMoreInfo,getAllUserData,handleLogout,entireData,isLoading,error,passionList,sexualOreint,newUserData,gender,data,presentUser }
+        const {entireData,isLoading,error,passionList,sexualOreint,gender, data,presentUser,moreInfo, moreFeatures }=this.state
+        const {newUserData,getAllUserData,handleLogout,handleMoreInfo, handleMoreFeatures}=this
+        const value={moreInfo,handleMoreInfo,getAllUserData,handleLogout,entireData,isLoading,error,passionList,sexualOreint,newUserData,gender,data,presentUser, moreFeatures, handleMoreFeatures }
 
         return (
             <DataContext.Provider value={value}> 

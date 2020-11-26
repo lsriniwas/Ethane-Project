@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { DataContext } from "../../DataContextProvider/DataContextProvider";
 import dp from "../../Images/img4.jpg";
 import { ViewProfileInfo } from "../ProfileInfo/ViewParticularProfile";
+import MainFeature from "./MainFeature";
 
 const ProfileView = styled.div`
   margin: 0;
@@ -80,6 +81,7 @@ export class Profile extends Component {
     const { presentUser } = this.context;
     console.log(presentUser);
     return presentUser.length !==0  ? (
+      <div>
       <ProfileView>
         <SideNavBar>
           <SideHeader>
@@ -137,6 +139,9 @@ export class Profile extends Component {
           </SideHeader>
         </SideNavBar>
       </ProfileView>
+      
+      <MainFeature history = {this.props.history} />
+      </div>
     ) : (
       <>
         <div
